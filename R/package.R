@@ -1,6 +1,7 @@
 #' @import methods
 NULL
 
+#' Example class
 #' @export
 setClass("SNPhood", slots = list(object = "ANY"))
 
@@ -13,11 +14,10 @@ setClass("SNPhood", slots = list(object = "ANY"))
 #' @importMethodsFrom BiocGenerics counts
 #' @aliases counts
 #' @export
+#' @examples
+#' counts(new("SNPhood"))
 setMethod("counts",
           "SNPhood",
           function(object, type, readGroup = NULL, dataset = NULL, ...) {
             TRUE
           })
-
-# counts(new("SNPhood"))
-#> [1] TRUE

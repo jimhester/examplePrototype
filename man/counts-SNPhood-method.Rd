@@ -23,4 +23,7 @@
 \description{
 Count method for SNPhood
 }
+\examples{
+counts(new("SNPhood"))
+}
 
