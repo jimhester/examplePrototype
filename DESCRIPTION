@@ -3,7 +3,7 @@ Title: Example S4 Documentation
 Version: 0.0.0.9000
 Authors@R: person("James", "Hester", email = "james.f.hesetr@gmail.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
-Depends: R (>= 3.3.0), methods
+Depends: R (>= 3.2.0), methods
 Imports: BiocGenerics
 License: MIT + file LICENSE
 LazyData: true
